@@ -1,0 +1,54 @@
+@media (min-width: 48em) {
+    body {
+        background-image: url('../images/bg-desktop.svg');
+        background-size: cover;
+        padding: var(--space-xl);
+    }
+    
+    main {
+        flex-direction: row;
+        align-items: center;
+        gap: clamp(2rem, 6vw, 4rem);
+    }
+    
+    .content {
+        flex: 1;
+        text-align: left;
+        gap: var(--space-lg);
+    }
+    
+    .illustration {
+        flex: clamp(1.2, 8vw, 1.6);
+    }
+
+    h1 {
+      font-size: var(--font-size-heading-tablet);
+    }
+
+    footer {
+        align-items: flex-end;
+        gap: var(--space-xl);
+    }
+}
+
+@media (min-width: 90em) {
+    .container {
+        max-width: 90rem;
+    }
+    
+    body {
+        padding: var(--space-xxl) clamp(3rem, 10vw, 6rem);
+    }
+    
+    .content {
+        padding-right: clamp(2rem, 6vw, 4rem);
+    }
+
+    h1 {
+      font-size: var(--font-size-heading-desktop);
+    }
+    
+    p {
+        max-width: 90%;
+    }
+}
