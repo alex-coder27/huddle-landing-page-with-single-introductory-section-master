@@ -77,6 +77,10 @@ footer {
     justify-content: center;
     gap: var(--space-sm);
 }
+.attribution {
+    font-size: var(--font-size-attribution);
+    text-align: center;
+}
 
 .social-icons a {
     display: inline-flex;
@@ -89,19 +93,13 @@ footer {
     font-size: calc(var(--social-icon-size) * 0.5);
 }
 
+.attribution a {
+    color: var(--soft-magenta);
+    text-decoration: underline;
+}
+
 .social-icons a:hover {
     color: var(--soft-magenta);
     border-color: var(--soft-magenta);
     transform: translateY(-2px);
-}
-
-.attribution {
-    font-size: var(--font-size-attribution);
-    text-align: center;
-    opacity: 0.8;
-}
-
-.attribution a {
-    color: var(--soft-magenta);
-    text-decoration: underline;
 }
