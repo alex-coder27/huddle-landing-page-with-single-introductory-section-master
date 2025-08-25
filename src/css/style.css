@@ -33,14 +33,12 @@ h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: var(--font-size-heading);
-    line-height: clamp(1.3, 5vw, 1.5);
     margin-block-end: var(--space-md);
 }
 
 .paragraph-content {
-    line-height: clamp(1.5, 5vw, 1.7);
+    line-height: clamp(1.5rem, 5vw, 1.7rem);
     opacity: 0.9;
-    font-size: var(--font-size-paragraph);
     margin-block-end: var(--space-lg);
 }
 

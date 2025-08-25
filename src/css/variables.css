@@ -14,14 +14,13 @@
 
     --font-size-heading: clamp(1.4rem, 6vw, 2.5rem);
     --font-size-heading-tablet: clamp(1.8rem, 4.5vw, 2rem);
-    --font-size-heading-desktop: clamp(2.5rem, 5vw, 3rem);
-    --font-size-paragraph: clamp(0.9rem, 3.5vw, 1.1rem);
+    --font-size-heading-desktop: clamp(2rem, 5vw, 2rem);
     --font-size-btn: clamp(0.8rem, 3vw, 1rem);
     --font-size-attribution: clamp(0.7rem, 2.5vw, 0.75rem);
 
     --logo-width: clamp(7rem, 25vw, 12rem);
     --btn-padding-vertical: clamp(0.7rem, 3vw, 1rem);
-    --btn-padding-horizontal: clamp(3rem, 12vw, 5rem);
+    --btn-padding-horizontal: clamp(5rem, 12vw, 6rem);
     --btn-border-radius: clamp(1.5rem, 5vw, 2rem);
     --social-icon-size: clamp(1.8rem, 6vw, 2.5rem);
 

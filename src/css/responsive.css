@@ -1,4 +1,8 @@
 @media (min-width: 48em) {
+    :root {
+         --btn-padding-horizontal: clamp(3rem, 12vw, 5rem);
+    }
+
     body {
         background-image: url('../images/bg-desktop.svg');
         background-size: cover;
@@ -18,7 +22,7 @@
     }
     
     .illustration {
-        flex: clamp(1.2, 8vw, 1.6);
+        flex: 1.2;
     }
 
     h1 {
@@ -43,13 +47,10 @@
     body {
         padding: var(--space-xxl) clamp(3rem, 10vw, 6rem);
     }
-    
-    .content {
-        padding-inline-end: clamp(2rem, 6vw, 4rem);
-    }
 
     h1 {
       font-size: var(--font-size-heading-desktop);
+      padding-inline-end: clamp(5rem, 12vw, 10rem);
     }
     
     p {
