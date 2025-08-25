@@ -25,6 +25,10 @@
       font-size: var(--font-size-heading-tablet);
     }
 
+    .register-btn {
+        align-self: flex-start;
+    }
+
     footer {
         align-items: flex-end;
         gap: var(--space-xl);
